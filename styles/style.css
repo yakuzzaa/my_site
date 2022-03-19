@@ -149,3 +149,98 @@ body {
     width: 46px;
 
 }
+
+/* about me section */
+
+.about_me_section .background_about_me
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin:10px 0px;
+    opacity: 0.6;
+}
+
+.container_about_me{
+    position: relative;
+    margin-bottom: 10px;
+}
+.about_me_section .text_about_me {
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 350px 300px 330px 300px;
+
+
+}
+
+.text_decoration{
+    background-color: #D8BFD8;
+    border-radius: 15px;
+    padding: 40px 20px;
+}
+
+
+/* my works section */
+
+.my_work_section .background_about_me
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin:10px 0px;
+    opacity: 0.6;
+}
+
+.container_my_work{
+    position: relative;
+    margin-bottom: 10px;
+}
+.my_work_section . {
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 350px 300px 330px 300px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

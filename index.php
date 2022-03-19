@@ -13,23 +13,8 @@
     <title>My site</title>
 </head>
 <body>
+    <?php include_once "components/header.php" ?>
 
-    <nav class="navbar">
-        <div class="container">
-            <a href = "/index.php" class = "navbar-logo"><img  alt = "logo" src="/img/home/my_logo.png"></a>
-
-            <div class = "navbar-wrap">
-                <ul class = "navbar-menu">
-                    <li><a href="/index.php">Home</a> </li>
-                    <li><a href="/about_me.php">About me</a> </li>
-                    <li><a href="/my_works.php">My works</a> </li>
-                    <li><a href="/contacts.php">Contacts</a> </li>
-                    <li><a href="/gallery.php">Gallery</a> </li>
-                </ul>
-                <a href="/registration_page.php" class ="registration">Join me</a>
-            </div>
-        </div>
-    </nav>
 
 <div class ="main_block">
     <div class ="conatainer_for_main">
@@ -46,20 +31,7 @@
     </div>
 
 </div>
+  <?php  include_once  "components/footer.php"?>
 
-<div class="footer">
-    <div class = "container_footer">
-        <ul class ="footer_inf">
-            <li>2022</li>
-            <li>All rights belong to me.</li>
-        </ul>
-        <ul class ="icons_list">
-            <li><a class = "inst" href= "#"> <img alt ="instagram logo" src ="/img/home/inst.png"></a></li>
-            <li> <a class = "vk"  href= "#"> <img  alt ="vk logo" src ="/img/home/vk.png"></a></li>
-        </ul>
-
-    </div>
-
-</div>
 </body>
 </html>
